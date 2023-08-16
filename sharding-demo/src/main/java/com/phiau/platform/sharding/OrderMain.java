@@ -31,7 +31,7 @@ public class OrderMain {
             List<String> monthPrefix = Arrays.asList("202308", "202309", "202310");
 
             for (String m : monthPrefix) {
-                for (int i = 15; i < 20; i++) {
+                for (int i = 35; i < 45; i++) {
                     preparedStatement.setString(1, m + "0" + i);
                     preparedStatement.setInt(2, 1 + i);
                     preparedStatement.setLong(3, 12 + i);
